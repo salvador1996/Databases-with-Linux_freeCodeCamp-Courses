@@ -16,7 +16,8 @@ CREATE TABLE Suppliers (
     ContactName VARCHAR(100),
     ContactEmail VARCHAR(100),
     Phone VARCHAR(20),
-    Address VARCHAR(255)
+    Address VARCHAR(255),
+    POBox VARCHAR(50)
 );
 
 -- Create Products table
@@ -44,25 +45,25 @@ CREATE TABLE StockMovements (
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
--- Optional: Create Locations table
+-- Create Locations table
 CREATE TABLE Locations (
     LocationID INT AUTO_INCREMENT PRIMARY KEY,
     LocationName VARCHAR(100) NOT NULL,
     Description TEXT
 );
 
--- Insert sample data into Categories table
+-- Insert data into Categories table
 INSERT INTO Categories (CategoryName, Description) VALUES
 ('Dairy', 'Milk, cheese, and other dairy products'),
 ('Beverages', 'Soft drinks, coffee, tea, etc.'),
 ('Bakery', 'Bread, pastries, and other baked goods');
 
--- Insert sample data into Suppliers table
-INSERT INTO Suppliers (SupplierName, ContactName, ContactEmail, Phone, Address) VALUES
-('Fresh Farms', 'John Doe', 'johndoe@freshfarms.com', '123-456-7890', '123 Farm Road, Farmville'),
-('Beverage Co', 'Jane Smith', 'janesmith@beverageco.com', '098-765-4321', '456 Beverage Street, Drinktown');
+-- Insert data into Suppliers table
+INSERT INTO Suppliers (SupplierName, ContactName, ContactEmail, Phone, Address, POBox) VALUES
+('Fresh Farms', 'Salvador Ngueukam', 'salvador_ngueukam@protonmail.com', '015210509062', 'Sauerbruchstrasse 13, Ludwigshafen', 'PLZ 67063'),
+('Beverage Co', 'Claire Ngatcheu', 'claire.ngatcheu@yahoo.com', '017682369579', 'Berlinerstrasse 139, Cologne', 'PLZ 51063');
 
--- Insert sample data into Products table
+-- Insert data into Products table
 INSERT INTO Products (ProductName, CategoryID, SupplierID, UnitPrice, UnitsInStock, ReorderLevel) VALUES
 ('Whole Milk', 1, 1, 2.50, 100, 20),
 ('Cheddar Cheese', 1, 1, 5.00, 50, 10),
