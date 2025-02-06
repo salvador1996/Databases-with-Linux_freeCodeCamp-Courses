@@ -1,0 +1,224 @@
+echo hello terminal
+pwd
+ls
+cd freeCodeCamp
+ls
+pwd
+ls
+cd test
+pwd
+ls
+cd ..
+ls
+more package.json
+ls
+more package.json
+clear
+ls
+cd nodes_modules
+cd node_modules
+ls
+ls -1
+clear
+ls
+ls -l
+cd has
+ls
+more README.md
+ls
+more LICENSE-MIT
+clear
+ls
+cd src
+pwd
+ls
+more index.js
+pwd
+cd ..
+cd ..
+cd ../..
+clear
+ls
+clear
+mkdir website
+ls
+cd website
+ls
+echo hello ebsite
+echo hello website
+clear
+touch index.html
+touch styles.css
+ls
+touch index.js
+ls
+touch .gitignore
+ls
+ls --help
+clear
+ls -a
+ls -A
+cd .
+touch background.jpg
+touch header.png
+touch footer.jpeg
+ls
+touch roboto.font
+touch lato.font
+menlo.font
+touch menlo.font
+clear
+ls
+touch codeAlly.svg
+rm codeAlly.svg
+ls
+touch CodeAlly.svg
+touch CodeRoad.svg
+touch freeCodeCamp.svg
+clear
+ls
+ls
+pwd
+ls
+clear
+ls
+cd website
+ls
+mkdir images
+ls
+clear
+ls
+cp background.jpg images
+ls
+cd images
+ls
+cd ..
+clear
+ls
+rm background.jpg
+ls
+cp header.png images
+cp footer.jpeg images
+cd images
+ls
+cd ..
+ls
+rm header.png
+rm footer.jpeg
+ls
+mv roboto.font roboto.woff
+ls
+mv lato.font lato.ttf
+mv menlo.font menlo.otf
+ls
+mkdir fonts
+ls
+mv roboto.woff fonts
+ls
+find
+mv lato.ttf fonts
+mv menlo.otf fonts
+find
+mkdir client
+mkdir client/src
+mv index.html client/src
+find
+clear
+mv index.js client/src
+mv styles.css client/src
+find
+find client
+find --help
+find -name index.html
+find -name styles.css
+find -name src
+find
+clear
+ls
+cd client
+mkdir assets
+cd assets
+mkdir images
+cd images
+touch background.jpg
+pwd
+cd ../../..
+ls
+cd images
+ls
+mv header.png ..
+ls
+cd ..
+ls
+mv header.png client/assets/images
+ls
+find -name images
+mv header.png client/assets/images
+find -name header.png
+find -name footer.jpeg
+mv images/footer.jpeg client/assets/images
+find
+clear
+rmdir images
+rm images/background.jpg
+rmdir images
+ls
+mkdir client/assets/icons
+mv CodeRoad.svg client/assets/icons
+mv client/assets/icons/CodeRoad.svg .
+ls
+mv CodeAlly.svg client/assets/icons
+find
+mv CodeRoad.svg client/assets/icons
+mv freeCodeCamp client/assets/icons
+ls
+mv freeCodeCamp.svg client/assets/icons
+find
+mkdir client/assets/fonts
+clear
+touch client/assets/fonts/roboto-bold.woff
+touch client/assets/fonts/roboto-light.woff
+find client/assets/fonts
+touch client/assets/fonts/lato-bold.ttf
+touch client/assets/fonts/lato-light.ttf
+find client/assets/fonts
+find
+find -name fonts
+rmdir fonts
+rmdir --help
+rm --help
+clear
+rm -r fonts
+ls
+touch package.json
+touch server.js
+touch READ.md
+rm READ.md
+ls
+touch README.md
+ls
+clear
+echo Yay!
+echo I finished the boilerplate!
+echo one more thing...
+echo I made this boilerplate >> README.md
+more README.md
+echo from the command line >> README.md
+more README.md
+echo for the freeCodeCamp bash lessons >> README.md
+more README.md
+cd ..
+ls
+mv website website-boilerplate
+ls
+cp --help
+clear
+ls
+find toms-website
+cp -r website-boilerplate toms-website
+ls
+find toms-website
+find website-boilerplate
+clear
+echo goodbye terminal
+exit
